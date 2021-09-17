@@ -1,5 +1,5 @@
 {
-	"name": "~TODO~",
+	"name": "sveltekit-video-gallery-demo",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -26,7 +26,8 @@
 	"type": "module",
 	"dependencies": {
 		"@cloudinary/url-gen": "1.0.0-beta.5",
-		"@sveltejs/adapter-vercel": "1.0.0-next.0",
+		"@sveltejs/adapter-netlify": "1.0.0-next.31",
+		"@sveltejs/adapter-vercel": "next",
 		"cloudinary": "1.26.3"
 	}
 }
